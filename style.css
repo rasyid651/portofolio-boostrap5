@@ -1,12 +1,23 @@
-body {
-  min-height: 2000px;
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+section {
+    scroll-margin-top: 75px;
 }
 
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 6rem;
   background-color: #e2edff;
 }
 
 #projects {
   background-color: #e2edff;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
