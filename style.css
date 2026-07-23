@@ -1,10 +1,10 @@
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 75px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
 section {
-    scroll-margin-top: 75px;
+  scroll-margin-top: 75px;
 }
 
 .jumbotron {
@@ -17,8 +17,20 @@ section {
 }
 
 .profile {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
+.txt-deskripsi {
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+svg{
+    display:block;
+    margin-bottom:-2px;
+}
